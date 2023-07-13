@@ -16,7 +16,7 @@ public class CalculatorController {
 
     @GetMapping()
     public String hello() {
-        return "<b> Добро пожаловать в мой крутой калькулятор, умеет только суммировать, вычитать, умножать и делить, пока что...</b>";
+        return "<b> Calc";
     }
 
     @GetMapping("/plus")
